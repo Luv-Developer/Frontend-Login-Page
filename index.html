@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel ="stylesheet" type = "text/css" href = "index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <main>
+        <form  method = "post">
+    <div class="container">
+       <h1>Login</h1>
+       <input id ="user" class = "username" type = "text" placeholder="username" required maxlength="10" minlength="5"> <i class='bx bxs-user'></i><br>
+       <input  id ="pass" class = "password" type = "password" placeholder="*******" required maxlength="10" minlength="5"> <i class='bx bxs-lock-alt' ></i><br>
+       <input  class = "check" type = "checkbox" required> <label class = "para">Remember me</label><a  class = "fpass" href="#">Forgot Password?</a>
+       <button class="btn" id = "btn" onclick="info()">Login</button><br><br>
+       <label class = "lpara">Don't have an account? <a class="reg" href ="#">Register</a></label>
+    </div>
+    </form>
+    </main>
+    <script src = "index.js"></script>
+</body>
+</html>
